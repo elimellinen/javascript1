@@ -1,0 +1,51 @@
+/* Style the header */
+.header {
+ padding: 10px 16px;
+ background: #555;
+ color: #f1f1f1;
+ font-size: 50px;
+ font-family:'Fjalla One', sans-serif;
+}
+
+.header a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 22px;
+    color: white;
+}
+
+.header a:hover {
+    background-color: yellow;
+}
+
+.header .selected {
+    background-color: #ffa07a;
+}
+
+/* Page content */
+.content {
+ padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+ position: fixed;
+ top: 0;
+ width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+ padding-top: 102px;
+}
+
+img {
+    border-radius: 5px;
+    border-style: solid;
+    width: 40%;
+    border-color: black;
+}
+
+figcaption {
+
+}
