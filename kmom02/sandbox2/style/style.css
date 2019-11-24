@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+h4 {
+    color: blue;
+}
+
+.content {
+    background-color: #c3a986;
+    border-style: solid;
+    border-color: #b1b2b1;
+    padding: 2em;
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    border-radius: 30px;
+}
+
+.b {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #7ea8d9;
+    border-color: #31596f;
+    border-style: solid;
+}
+
+.test {
+    color: green;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    margin-right: 500px;
+    margin-left: 500px;
+    position: absolute;
+    color: pink;
+    font-family: Verdana, Geneva, sans-serif;
+}
